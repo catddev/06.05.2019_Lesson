@@ -1,8 +1,5 @@
 ﻿#pragma once
-#include<iostream>
-#include <string>
 #include"Institution.h"
-using namespace std;
 
 class School:virtual public Institution {
 protected:
