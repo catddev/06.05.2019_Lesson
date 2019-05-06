@@ -115,9 +115,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Institution.h" />
     <ClInclude Include="School.h" />
     <ClInclude Include="Shag.h" />
     <ClInclude Include="University.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Institution.cpp" />
+    <ClCompile Include="School.cpp" />
+    <ClCompile Include="Shag.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="University.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
