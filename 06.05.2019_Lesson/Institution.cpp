@@ -6,7 +6,7 @@ Institution::Institution()
 	since = 0;
 }
 
-Institution::Institution(string loaction, int since)
+Institution::Institution(string location, int since)
 {
 	this->location = location;
 	this->since = since;

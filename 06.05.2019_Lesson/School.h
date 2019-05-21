@@ -1,6 +1,7 @@
 ﻿#pragma once
 #include"Institution.h"
 
+class Shag;
 class School:virtual public Institution {
 protected:
 	int children;

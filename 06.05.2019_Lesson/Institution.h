@@ -9,7 +9,7 @@ protected:
 	int since;
 public:
 	Institution();
-	Institution(string loaction, int since);
+	Institution(string location, int since);
 };
 //решение проблемы ромба:
 //классы Школа и Университет будут наследовать от института ВИРТУАЛЬНО -

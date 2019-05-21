@@ -16,6 +16,11 @@ Shag::Shag(string location, int since, int children, int adults)
 	this->adults = adults;
 }
 
+Shag::Shag(School obj, int adults):School(location, since, children)
+{
+	this->adults = adults;
+}
+
 ostream & operator<<(ostream & os, Shag obj)
 {
 	os << obj.location << " " << obj.since << " " << obj.children << " " << obj.adults << endl;
