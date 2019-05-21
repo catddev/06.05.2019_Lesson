@@ -3,6 +3,7 @@
 #include <string>
 using namespace std;
 
+class Shag;//!!!!!!!
 class Institution {
 protected:
 	string location;
@@ -10,6 +11,8 @@ protected:
 public:
 	Institution();
 	Institution(string location, int since);
+
+	friend Shag;
 };
 //решение проблемы ромба:
 //классы Школа и Университет будут наследовать от института ВИРТУАЛЬНО -
